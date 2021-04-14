@@ -11,7 +11,7 @@ function setData() {
   const minDeg = (minutes / 60) * 360 + 90;
   const secondsDeg = (seconds / 60) * 360 + 90;
 
-  handMin.style.transform = `rotate(${houDeg}deg)`;
+  handHour.style.transform = `rotate(${houDeg}deg)`;
   handMin.style.transform = `rotate(${minDeg}deg)`;
   handSec.style.transform = `rotate(${secondsDeg}deg)`;
 }
